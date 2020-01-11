@@ -31,6 +31,16 @@ int main()
     names.push_back("George");
     names.push_back("Susan");
 
+    cout << "Size of names: " << names.size() << endl;
+
+    names.pop_back();
+
+    numbers03.clear();
+
+    if (numbers03.empty())
+        cout << "Numbers03 is Empty" << endl;
+
+
 
 
 
